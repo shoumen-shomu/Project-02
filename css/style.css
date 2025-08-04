@@ -47,6 +47,11 @@ p {
   color: #181818;
   font-size: 18px;
   font-weight: 500;
+  transition: .4s;
+}
+.menu ul li a:hover{
+  color: #5956e8;
+
 }
 .menubtn {
   background: #5956e8;
