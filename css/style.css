@@ -406,8 +406,11 @@ p {
 .company h3 {
   padding-bottom: 15px;
 }
-.company a {
-  display: block;
+.company ul{
+ display: block;
+}
+.company ul li a {
+ 
   color: #5d5d5d;
   font-size: 16px;
   font-weight: 400;
@@ -416,7 +419,10 @@ p {
 .product h3 {
   padding-bottom: 15px;
 }
-.product a {
+.product ul{
+ display: block;
+}
+.product ul li a {
   display: block;
   color: #5d5d5d;
   font-size: 16px;
@@ -426,7 +432,10 @@ p {
 .support h3 {
   padding-bottom: 15px;
 }
-.support a {
+.support ul{
+ display: block;
+}
+.support ul li a {
   display: block;
   color: #5d5d5d;
   font-size: 16px;
