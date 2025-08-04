@@ -47,11 +47,10 @@ p {
   color: #181818;
   font-size: 18px;
   font-weight: 500;
-  transition: .4s;
+  transition: 0.4s;
 }
-.menu ul li a:hover{
+.menu ul li a:hover {
   color: #5956e8;
-
 }
 .menubtn {
   background: #5956e8;
@@ -411,11 +410,10 @@ p {
 .company h3 {
   padding-bottom: 15px;
 }
-.company ul{
- display: block;
+.company ul {
+  display: block;
 }
 .company ul li a {
- 
   color: #5d5d5d;
   font-size: 16px;
   font-weight: 400;
@@ -424,8 +422,8 @@ p {
 .product h3 {
   padding-bottom: 15px;
 }
-.product ul{
- display: block;
+.product ul {
+  display: block;
 }
 .product ul li a {
   display: block;
@@ -437,8 +435,8 @@ p {
 .support h3 {
   padding-bottom: 15px;
 }
-.support ul{
- display: block;
+.support ul {
+  display: block;
 }
 .support ul li a {
   display: block;
