@@ -136,7 +136,11 @@ p {
   padding: 48px 63px;
   box-sizing: border-box;
   border-radius: 10px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgb(206, 190, 190);
+  transition: 0.4s;
+}
+.cardOne:hover {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
 }
 .cardOne h2 {
   color: #181818;
@@ -184,7 +188,46 @@ p {
 .portfoliocardOne {
   box-sizing: border-box;
   border-radius: 10px;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.portfoliocardOne img {
+  display: block;
+  object-fit: cover;
+}
+.cardOneOverly {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  background: #5956e8;
+  width: 230px;
+  padding: 25px 0;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.4s;
+}
+.cardOneOverly p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-bottom: 5px;
+}
+.cardOneOverly a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 5px;
+}
+.portfoliocardOne:hover {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.portfoliocardOne:hover .cardOneOverly {
+  opacity: 1;
 }
 /* portfolio part end */
 /* team member part start */
@@ -221,18 +264,25 @@ p {
   width: 32%;
   box-sizing: border-box;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   position: relative;
+  overflow:hidden;
+  transition: 0.4s;
 }
 .teamCardOne img {
   display: block;
+  object-fit: cover;
+
 }
 .teamonfo {
   position: absolute;
   left: 50%;
-  bottom: 3%;
+  bottom: 5%;
   transform: translateX(-50%);
   text-align: center;
+opacity: 0;
+transition: 0.4s;
+
+ 
 }
 .teamonfo h2 {
   color: #fffefe;
@@ -245,6 +295,12 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
+}
+.teamCardOne:hover{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.teamCardOne:hover .teamonfo{
+  opacity: 1;
 }
 /* team member part end */
 /* testimonial Part start */
@@ -281,6 +337,10 @@ p {
   border-radius: 10px;
   padding: 48px;
   position: relative;
+  transition: 0.4s;
+}
+.testimonialcardOne:hover{
+box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
 }
 .testimonialcardOne .design {
   position: absolute;
@@ -349,6 +409,10 @@ p {
   box-sizing: border-box;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  transition: 0.4s;
+}
+.newscardOne:hover{
+box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
 }
 .newsContentimg {
   padding: 20px 20px 10px 20px;
