@@ -31,9 +31,11 @@ p {
 /* all common css end */
 
 /* menu part start */
+#menuPart{
+  padding: 30px 0;
+}
 .navbar {
   width: 100%;
-  padding: 30px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
